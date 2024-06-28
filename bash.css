@@ -1,1 +1,82 @@
-
+/* Reset default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #151515;
+  }
+  
+  /* General styles for the Git Bash lookalike */
+  .git-bash {
+    font-family: 'Courier New', Courier, monospace;
+    width: 600px;
+    height: 400px;
+    background-color: #1e1e1e;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .header {
+    background-color: #333;
+    height: 30px;
+    padding: 5px;
+  }
+  
+  .header span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .close-btn {
+    background-color: #ff5f56;
+  }
+  
+  .minimize-btn {
+    background-color: #ffbd2e;
+  }
+  
+  .maximize-btn {
+    background-color: #27c93f;
+  }
+  
+  .content {
+    padding: 10px;
+  }
+  
+  .command-line {
+    display: flex;
+    align-items: center;
+  }
+  
+  .prompt {
+    color: #50a14f;
+    margin-right: 5px;
+  }
+  
+  input[type="text"] {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    width: calc(100% - 40px);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+  }
+  
+  .output {
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #333;
+    background-color: #333;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
